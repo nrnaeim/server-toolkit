@@ -1,0 +1,27 @@
+{
+    "name": "server-toolkit",
+    "version": "0.0.1",
+    "description": "",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nrnaeim/server-toolkit.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/nrnaeim/server-toolkit/issues"
+    },
+    "homepage": "https://github.com/nrnaeim/server-toolkit#readme",
+    "devDependencies": {
+        "@types/node": "^25.9.3",
+        "typescript": "^6.0.3"
+    }
+}
