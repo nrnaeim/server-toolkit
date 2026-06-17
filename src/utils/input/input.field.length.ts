@@ -39,12 +39,13 @@ export const INPUT_FIELD_LENGTH = {
     AVATAR_ALT: { MIN: 0, MAX: 255 },
 
     //* ===== Address =====
-    ADDRESS: { MIN: 5, MAX: 500 },
-    ADDRESS_LINE: { MIN: 2, MAX: 255 },
-    CITY: { MIN: 2, MAX: 100 },
-    STATE: { MIN: 2, MAX: 100 },
-    COUNTRY: { MIN: 2, MAX: 100 },
-    POSTAL_CODE: { MIN: 3, MAX: 20 },
+    ADDRESS: {
+        LINE: { MIN: 2, MAX: 255 },
+        CITY: { MIN: 2, MAX: 100 },
+        STATE: { MIN: 2, MAX: 100 },
+        COUNTRY: { MIN: 2, MAX: 100 },
+        POSTAL_CODE: { MIN: 3, MAX: 20 },
+    },
 
     //* ===== Organization =====
     COMPANY_NAME: { MIN: 2, MAX: 200 },
